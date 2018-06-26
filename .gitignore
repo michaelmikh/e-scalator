@@ -1,0 +1,11 @@
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode
+
+# Project folders and files
+.env
+lib
+test
+node_modules

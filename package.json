@@ -1,0 +1,31 @@
+{
+    "name": "e-scalator",
+    "version": "1.0.0",
+    "description": "Image resize (scale) tool",
+    "main": "index.js",
+    "author": "Michael Mikh",
+    "license": "MIT",
+    "bin": "./lib/index.js",
+    "dependencies": {
+        "dotenv": "^6.0.0",
+        "sharp": "^0.20.2",
+        "commander": "^2.15.1",
+        "glob": "^7.1.2"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-plugin-import": "^1.8.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-preset-flow": "^6.23.0",
+        "flow-bin": "^0.72.0",
+        "jest": "^23.1.0"
+    },
+    "scripts": {
+        "build": "babel src/ -d lib/ && chmod +x lib/index.js",
+        "start": "./lib/index.js --debug -r",
+        "br": "yarn build && yarn start"
+    },
+    "engines": {
+        "node": ">=8.0"
+    }
+}
