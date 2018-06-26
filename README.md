@@ -1,12 +1,8 @@
 ## About
 
----
-
-EScalator is a CLI application designed to simplify process of resizing large (or not) images. Some aspects of this software are implemented in order to gain new knowledge and experience with number of modern technologies (i.e. flow, babel, etc.).
+EScalator is a CLI application designed to simplify process of resizing large (or not) images. Some aspects of this software are implemented in order to gain new knowledge and experience with number of modern technologies (i.e. <i>flow</i>, <i>babel</i>, etc.).
 
 ## Installation
-
----
 
 ### <b>Notice: </b> This way of installation is <i>not yet supported</i>.
 
@@ -24,8 +20,6 @@ $ yarn global add e-scalator
 
 ## Usage
 
----
-
 In order to see full list of valid options, use:
 
 ```sh
@@ -36,16 +30,12 @@ To get rid of re-typing **source** and **destination** folders, application supp
 
 ## Dependencies
 
----
-
 -   [Sharp](https://github.com/lovell/sharp) (image processing library)
 -   [Commander.js](https://github.com/tj/commander.js) (powerful cli-arguments processor)
 
 ## TODO:
 
 -   Write & perform unit tests
-
----
 
 ## License
 

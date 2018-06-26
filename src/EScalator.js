@@ -88,7 +88,7 @@ module.exports = class EScalator {
                 console.log('Height :: %d px', data.height);
 
                 if (data.width < this.WIDTH || data.height < this.HEIGHT) {
-                    console.warn('Inappropriate source image size.');
+                    console.warn('Inappropriate source image size');
                     return;
                 }
             });
