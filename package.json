@@ -1,6 +1,6 @@
 {
     "name": "e-scalator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Image resize (scale) tool",
     "main": "index.js",
     "author": "Michael Mikh",

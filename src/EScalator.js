@@ -12,7 +12,7 @@ module.exports = class EScalator {
     DEBUG: boolean;
 
     // popular extensions describing image files
-    IMAGE_EXTENSIONS: Array<any> = ['png', 'jpg', 'jpeg'];
+    IMAGE_EXTENSIONS: Array<string> = ['png', 'jpg', 'jpeg'];
 
     DESTINATION_DIR: string;
     SOURCE_DIR: string;
@@ -72,7 +72,7 @@ module.exports = class EScalator {
         return newItems.filter(newItem => {
             return !oldItems.some(oldItem => {
                 return oldItem.endsWith(newItem.substring(newItem.lastIndexOf('/') + 1));
-            }); // && this.IMAGE_EXTENSIONS.some(ext => newItem.endsWith(ext))
+            });
         });
     };
 
