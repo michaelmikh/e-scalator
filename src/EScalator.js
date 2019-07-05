@@ -50,7 +50,7 @@ module.exports = class EScalator {
         }
 
         return new Promise((resolve, reject) => {
-            glob(util.format(fromPath + '*.{%s}', this.IMAGE_EXTENSIONS), (error, files) => {
+            glob(util.format(fromPath + '*.{%s}', this.IMAGE_EXTENSIONS.toString()), (error, files) => {
                 if (error) {
                     reject(error);
                 }
