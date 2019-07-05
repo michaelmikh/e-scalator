@@ -8,7 +8,7 @@
     "bin": "./lib/index.js",
     "dependencies": {
         "dotenv": "^6.0.0",
-        "sharp": "^0.20.2",
+        "sharp": "^0.22.0",
         "commander": "^2.15.1",
         "glob": "^7.1.2"
     },
