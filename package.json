@@ -18,7 +18,7 @@
         "babel-plugin-transform-class-properties": "^6.24.1",
         "babel-preset-flow": "^6.23.0",
         "flow-bin": "^0.72.0",
-        "jest": "^23.1.0"
+        "jest": "^24.0.0"
     },
     "scripts": {
         "build": "babel src/ -d lib/ && chmod +x lib/index.js",
