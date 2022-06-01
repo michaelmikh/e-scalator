@@ -10,7 +10,7 @@
         "commander": "^2.15.1",
         "dotenv": "^6.0.0",
         "glob": "^7.1.2",
-        "sharp": "^0.25.0"
+        "sharp": "^0.30.5"
     },
     "devDependencies": {
         "babel-cli": "^6.26.0",
